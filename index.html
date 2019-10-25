@@ -92,17 +92,20 @@
           max="2020"
           class="form-control"
         /><br />
-        <label for="inputgender">Gender</label><br />
-        <label for="inputgender">Male </label>
-        <input name="gender" value="male" type="radio" id="male" /><br />
-        <label for="inputgender">Female</label>
-        <input name="gender" value="female" type="radio" id="female" /><br />
-        <button type="submit" class="btn btn-primary" onClick="display">
+        <label>Gender</label><br />
+        <input name="gender" value="male" type="radio" id="male" />Male<br />
+        <input
+          name="gender"
+          value="female"
+          type="radio"
+          id="female"
+        />Female<br />
+        <button type="submit" class="btn btn-primary" onclick="submition()">
           submit
         </button>
         <div id="display"></div>
       </form>
+      <script src="/js/main.js"></script>
     </div>
-    <script src="/js/main.js"></script>
   </body>
 </html>
